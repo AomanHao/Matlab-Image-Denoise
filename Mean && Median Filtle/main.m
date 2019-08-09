@@ -23,7 +23,6 @@ t=cputime;
 tic;
 %% 均值中值滤波
 [I_mean,I_median]=compute_mean_median(I,r);
-
 toc;
 time_fcm_spatial_mean=cputime-t;%运算时间
 
