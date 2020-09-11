@@ -1,3 +1,8 @@
+%% 程序分享 
+% 个人博客 www.aomanhao.top
+% Github https://github.com/AomanHao
+% CSDN https://blog.csdn.net/Aoman_Hao
+
 clc;clear;
 N=8000;    %信号点数
 M=128;     %滤波器阶数

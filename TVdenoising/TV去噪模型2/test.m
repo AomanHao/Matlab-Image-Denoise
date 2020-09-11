@@ -1,3 +1,9 @@
+%% 程序分享 
+% 个人博客 www.aomanhao.top
+% Github https://github.com/AomanHao
+% CSDN https://blog.csdn.net/Aoman_Hao
+%--------------------------------------
+
 clear all
 close all
  I=imread('pepper.bmp');
@@ -22,7 +28,7 @@ lamda=0.05;
 
 figure(4),imshow(Is,[]);
 figure(5),imshow(Is-In,[]);
-%��PSNRR&ImMAEͼ
+%��PSNRR&ImMAEͼ
 figure(8);
 x=1:iter;
 plot(x,PSNRR);
