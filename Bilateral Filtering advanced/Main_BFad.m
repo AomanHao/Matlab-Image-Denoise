@@ -28,7 +28,7 @@ imwrite(I,strcat('./result/','re','.png'));
 w     = 1;       % bilateral filter half-width
 
 tic;
-method = 'bfilter2';
+method = 'Joint_bfilter2';
 switch method
     case 'bfilter2'
         %% Ë«±ßÂË²¨
